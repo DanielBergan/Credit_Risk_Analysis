@@ -19,7 +19,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.71
   - Low Risk: 0.62
   - Average: 0.62
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/RandomOversample.png)
+
 ### SMOTE
 - Accuracy score: 0.6556413183413758
 - Precision:
@@ -30,7 +32,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.63
   - Low Risk: 0.68
   - Average: 0.68
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/SMOTE.png)
+
 ### Cluster Centroids
 - Accuracy score: 0.5447339051023905
 - Precision:
@@ -41,7 +45,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.69
   - Low Risk: 0.40
   - Average: 0.40
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/Cluster%20Centroids.png)
+
 ### SMOTEENN
 - Accuracy score: 0.6477226680806527
 - Precision:
@@ -52,7 +58,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.72
   - Low Risk: 0.57
   - Average: 0.57
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.png)
+
 ### Balanced Random Forest Classifier
 - Accuracy score: 0.7831183024757107
 - Precision:
@@ -63,7 +71,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.68
   - Low Risk: 0.88
   - Average: 0.88
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Classifier.png)
+
 ### Easy Ensemble Classifier
 - Accuracy score: 0.9316600714093861
 - Precision:
@@ -74,5 +84,9 @@ Displayed below is the results and performace metrics of the various models:
   - High Risk: 0.92
   - Low Risk: 0.94
   - Average: 0.94
-![This is an image]()
+
+![This is an image](https://github.com/DanielBergan/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20Classifier.png)
+
 ## Summary
+Based in the performance metrics of our tests, the easy ensemble classifier model was clearly better than all of the given altenatives and therefore would
+be the one we recommend using.
